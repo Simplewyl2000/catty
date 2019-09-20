@@ -1,0 +1,4 @@
+"D:\Clion\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\code3\Xana
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/code3/Xana/cmake-build-debug
