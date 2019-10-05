@@ -90,6 +90,8 @@ int main()
 	unsigned char in[100];//需要传输的信息
 	unsigned char digest[21];//sha1摘要值,20字节，160比特
 	unsigned char string[200] = { 0 };//连接后的数据
+	unsigned char string2[300] = { 0 };
+
 	unsigned char z[1024] = { 0 };//压缩后的数据
 	unsigned char expand[1024] = { 0 };//解压后的数据
 	unsigned long slen, zlen, exlen, plen;//原长度，压缩后的长度，解压后的长度,填充后的长度
@@ -127,7 +129,7 @@ int main()
 	curves = (EC_builtin_curve*)malloc(sizeof(EC_builtin_curve)*crv_len);
 
 	EC_get_builtin_curves(curves, crv_len);//获取椭圆曲线列表
-	nid = curves[25].nid;//选取一种椭圆曲线
+	nid = curves[10].nid;//选取一种椭圆曲线
 
 	group = EC_GROUP_new_by_curve_name(nid);//根据选择的椭圆曲线生成密钥参数group
 	if (group == NULL)
@@ -199,8 +201,8 @@ int main()
 		printf("%x", string[i]);
 	}
 	printf("\n");
-	slen = strlen((const char*)string);
-	//slen = n + sig_len;
+	//slen = strlen((const char*)string);
+	slen = n + sig_len;
 	printf("原串长度为:%ld\n", slen);
 
 
@@ -267,7 +269,7 @@ int main()
 
 
 
-		
+/*
 		 RSA *rsaKey = RSA_generate_key(1024, 65537, NULL, NULL);
 
 		 int keySize = RSA_size(rsaKey);
@@ -283,8 +285,65 @@ int main()
 			 printf("%x", aes[i]);                                     
 		 }
 		 printf("\n");
+		 
+*/
 
-		 printf("——————————————————当对方接受到后——————————————————\n");
+		 RSA* rsaKey2 = RSA_generate_key(1024, 65537, NULL, NULL);
+		 unsigned char common_key[128] = {0};
+		 unsigned char common_keyd[128];
+		 int aeskey_size = 0;
+		 aeskey_size = strlen(userkey);
+		 RSA_public_encrypt(aeskey_size, userkey, common_key, rsaKey2, RSA_PKCS1_PADDING);
+		 printf("经过RSA公钥加密后的秘钥信息为：");
+		 for (i = 0; i < aeskey_size; ++i)
+		 {
+			 printf("%x", common_key[i]);
+		 }
+		 printf("\n");
+
+
+		 nexus(string2, common_key, aeskey_size);
+		 nexus(string2 + aeskey_size, encrypt, plen * 16);
+		 printf("连接后的信息为：");
+
+		 for (i = 0; i < (plen*16 + aeskey_size); i++)
+		 {
+			 printf("%x", string2[i]);
+		 }
+
+
+
+		 printf("\n\n——————————————————当对方接受到后——————————————————\n\n");
+
+
+
+
+		 ret = RSA_private_decrypt(128, common_key, common_keyd, rsaKey2, RSA_PKCS1_PADDING);
+		 //ret = 15
+		 printf("经过RSA私钥解密后的对称加密密钥信息为：");
+		 for (i = 0; i < aeskey_size; ++i)
+		 {
+			 printf("%c", common_keyd[i]);
+		 }
+		 printf("\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 		 ret = RSA_private_decrypt(128, aes, aesd, rsaKey, RSA_PKCS1_PADDING);
 		 //ret = 15
@@ -294,7 +353,10 @@ int main()
 			 printf("%x", aesd[i]);
 		 }
 		 printf("\n");
-		 RSA_free(rsaKey);
+*/
+
+
+		 RSA_free(rsaKey2);
 	    
 		 AES_set_decrypt_key((const unsigned char*)userkey, AES_BLOCK_SIZE * 8, &Akey);//设置解密密钥及其长度
 		 Alen = 0;

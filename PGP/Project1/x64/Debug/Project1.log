@@ -1,23 +1,23 @@
 ﻿  源1.c
-E:\code4\PGP\Project1\源1.c(112,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-E:\code4\PGP\Project1\源1.c(112,9): message :  请考虑在格式字符串中使用“%zd”
-E:\code4\PGP\Project1\源1.c(178,16): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(184,45): warning C4267:  “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
-E:\code4\PGP\Project1\源1.c(202,36): warning C4267:  “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
-E:\code4\PGP\Project1\源1.c(219,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(231,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(254,15): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(262,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(281,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(292,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(301,16): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(308,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(318,18): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(331,19): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(342,19): warning C4018:  “<”: 有符号/无符号不匹配
-E:\code4\PGP\Project1\源1.c(108,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\code3\all\mmx\PGP\Project1\源1.c(114,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+E:\code3\all\mmx\PGP\Project1\源1.c(114,9): message :  请考虑在格式字符串中使用“%zd”
+E:\code3\all\mmx\PGP\Project1\源1.c(180,16): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(186,45): warning C4267:  “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\code3\all\mmx\PGP\Project1\源1.c(205,20): warning C4267:  “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+E:\code3\all\mmx\PGP\Project1\源1.c(221,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(233,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(256,15): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(264,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(295,33): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\code3\all\mmx\PGP\Project1\源1.c(309,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(363,16): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(370,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(380,18): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(393,19): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(404,19): warning C4018:  “<”: 有符号/无符号不匹配
+E:\code3\all\mmx\PGP\Project1\源1.c(110,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 E:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
-E:\code4\PGP\Project1\源1.c(352,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\code3\all\mmx\PGP\Project1\源1.c(414,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 E:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message :  参见“strncpy”的声明
-E:\code4\PGP\Project1\源1.c(99,12): warning C4101:  “ctx”: 未引用的局部变量
-  Project1.vcxproj -> E:\code4\PGP\x64\Debug\Project1.exe
+E:\code3\all\mmx\PGP\Project1\源1.c(101,12): warning C4101:  “ctx”: 未引用的局部变量
+  Project1.vcxproj -> E:\code3\all\mmx\PGP\x64\Debug\Project1.exe
