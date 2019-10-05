@@ -87,10 +87,10 @@ void  Eight_Bit_Padding(char* string)//将二进制字符串填充到八位
     int gap;
     int i;
     char* temp;
-    temp=(char*)malloc(9*sizeof(char));
+
     len=strlen(string);
     if(len!=8)
-    {
+    {   temp=(char*)malloc(9*sizeof(char));
         gap=8-len;
         for(i=0;i<gap;i++)
             temp[i]='0';
@@ -99,6 +99,8 @@ void  Eight_Bit_Padding(char* string)//将二进制字符串填充到八位
         temp[8]='\0';
         strncpy(string,temp,8);
         string[8]='\0';
+        free(temp);
+
     }
     return;
 }
@@ -112,8 +114,8 @@ void int_strncpy(int* g,int* s,int size)
 }
 
 int* Character_to_Binary(char* clear_text)//2个字节的明文
-{ int* binary;
-    binary=(int*)malloc(17*sizeof(int));
+{   int* binary;
+
     char string1[9];
     char string2[9];
     char* string;
@@ -130,6 +132,9 @@ int* Character_to_Binary(char* clear_text)//2个字节的明文
     strncpy(string,string1,8);
     strncpy(string+8,string2,8);
     string[16]='\0';
+    binary=(int*)malloc(17*sizeof(int));
+    if(binary == NULL)
+        binary=(int*)malloc(17*sizeof(int));
     for(i=0;i<16;i++)
     {
         binary[i]=(unsigned char)string[i]-48;
@@ -143,6 +148,7 @@ int* Character_to_Binary_strengthen(char* clear_text)//16字节的明文
     int i;
     int * temp;
     binary=(int*)malloc(129*sizeof(int));
+
     for(i=0;i<8;i++)
     {
         temp=Character_to_Binary(clear_text+2*i);
@@ -308,8 +314,11 @@ void Binary_to_Character(int* binary,char *string)
 
 char* Binary_to_Character_strengthen(int* binary)//
 {   char* string;
-    string=(char*)malloc(17*sizeof(char));
     int i;
+    string=(char*)malloc(17*sizeof(char));
+    if(string == NULL)
+        string=(char*)malloc(17*sizeof(char));
+
     for(i=0;i<8;i++)
     {
         Binary_to_Character(binary+16*i,string+2*i);
@@ -533,7 +542,7 @@ void strgentherSPN(char* filename){
     rewind(pFile);
     fread(input,1,len,pFile); //读文件
     input[len]='\0';
-    printf("%s\n",input);  //显示读到的数据
+ //   printf("%s\n",input);  //显示读到的数据
     fclose(pFile);
     if(len%16!=0)
     {
@@ -550,7 +559,13 @@ void strgentherSPN(char* filename){
         cipher_text[16]='\0';
         strncpy(output+16*i,cipher_text,16);
     }
-    printf("%s\n",output);
+
+    FILE* outputFile =NULL;
+    outputFile = fopen("encryption.txt","w");
+    fprintf(outputFile,output);
+
+
+ //   printf("%s\n",output);
 
     memset(lcbc,0,128*sizeof(int));
 
@@ -563,7 +578,7 @@ void strgentherSPN(char* filename){
         strncpy(decrypt+16*i,cipher_text,16);
     }
     decrypt[len]='\0';
-    printf("%s",decrypt);
+ //   printf("%s",decrypt);
 
 
 }

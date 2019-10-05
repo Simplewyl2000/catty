@@ -1,3 +1,3 @@
-E:/code3/strengthenSPN/cmake-build-debug/CMakeFiles/strengthenSPN.dir
-E:/code3/strengthenSPN/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/code3/strengthenSPN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/code3/mmx/strengthenedSPN/cmake-build-debug/CMakeFiles/strengthenSPN.dir
+E:/code3/mmx/strengthenedSPN/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/code3/mmx/strengthenedSPN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

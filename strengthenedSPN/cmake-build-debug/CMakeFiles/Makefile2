@@ -58,10 +58,10 @@ RM = "D:\Clion\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\code3\strengthenSPN
+CMAKE_SOURCE_DIR = E:\code3\mmx\strengthenedSPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\code3\strengthenSPN\cmake-build-debug
+CMAKE_BINARY_DIR = E:\code3\mmx\strengthenedSPN\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/strengthenSPN.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = E:\code3\strengthenSPN\cmake-build-debug
 CMakeFiles/strengthenSPN.dir/all:
 	$(MAKE) -f CMakeFiles\strengthenSPN.dir\build.make CMakeFiles/strengthenSPN.dir/depend
 	$(MAKE) -f CMakeFiles\strengthenSPN.dir\build.make CMakeFiles/strengthenSPN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\code3\strengthenSPN\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target strengthenSPN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\code3\mmx\strengthenedSPN\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target strengthenSPN"
 .PHONY : CMakeFiles/strengthenSPN.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/strengthenSPN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/strengthenSPN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\code3\strengthenSPN\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code3\mmx\strengthenedSPN\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/strengthenSPN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\code3\strengthenSPN\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code3\mmx\strengthenedSPN\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/strengthenSPN.dir/rule
 
 # Convenience name for target.

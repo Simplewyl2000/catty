@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/code3/strengthenSPN/main.c
+E:/code3/mmx/strengthenedSPN/main.c
 stdio.h
 -
 stdlib.h

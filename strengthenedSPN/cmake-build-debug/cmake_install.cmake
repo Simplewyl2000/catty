@@ -1,4 +1,4 @@
-# Install script for directory: E:/code3/strengthenSPN
+# Install script for directory: E:/code3/mmx/strengthenedSPN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/code3/strengthenSPN/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/code3/mmx/strengthenedSPN/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

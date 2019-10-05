@@ -1,0 +1,11 @@
+﻿  源1.c
+E:\code4\rainbow\Project1\源1.c(81,18): warning C4101:  “b”: 未引用的局部变量
+E:\code4\rainbow\Project1\源1.c(227,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+E:\code4\rainbow\Project1\源1.c(228,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+E:\code4\rainbow\Project1\源1.c(249,15): warning C4244:  “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\code4\rainbow\Project1\源1.c(250,16): warning C4101:  “a”: 未引用的局部变量
+E:\code4\rainbow\Project1\源1.c(251,16): warning C4101:  “store”: 未引用的局部变量
+E:\code4\rainbow\Project1\源1.c(260,16): warning C4101:  “rainbow”: 未引用的局部变量
+  Project1.vcxproj -> E:\code4\rainbow\x64\Debug\Project1.exe

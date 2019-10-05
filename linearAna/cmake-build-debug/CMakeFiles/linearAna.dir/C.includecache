@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/code3/linearAna/main.c
+E:/code3/all/mmx/linearAna/main.c
 stdio.h
 -
 stdlib.h

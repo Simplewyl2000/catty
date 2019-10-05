@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/code3/Xana/main.c" "E:/code3/Xana/cmake-build-debug/CMakeFiles/Xana.dir/main.c.obj"
+  "E:/code3/mmx/Xana/main.c" "E:/code3/mmx/Xana/cmake-build-debug/CMakeFiles/Xana.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
