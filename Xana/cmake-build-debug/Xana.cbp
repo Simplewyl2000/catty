@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/code3/mmx/Xana/cmake-build-debug"/>
+				<Option working_dir="E:/code3/all/mmx/Xana/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Xana">
-				<Option output="E:/code3/mmx/Xana/cmake-build-debug/Xana.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/code3/mmx/Xana/cmake-build-debug"/>
+				<Option output="E:/code3/all/mmx/Xana/cmake-build-debug/Xana.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/code3/all/mmx/Xana/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 Xana"/>
-					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 Xana"/>
+					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Xana/fast">
-				<Option output="E:/code3/mmx/Xana/cmake-build-debug/Xana.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/code3/mmx/Xana/cmake-build-debug"/>
+				<Option output="E:/code3/all/mmx/Xana/cmake-build-debug/Xana.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/code3/all/mmx/Xana/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,37 +49,37 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 Xana/fast"/>
-					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 Xana/fast"/>
+					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/code3/mmx/Xana/cmake-build-debug"/>
+				<Option working_dir="E:/code3/all/mmx/Xana/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/code3/mmx/Xana/cmake-build-debug"/>
+				<Option working_dir="E:/code3/all/mmx/Xana/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw/bin/mingw32-make.exe -f &quot;E:/code3/all/mmx/Xana/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/code3/mmx/Xana/main.c">
+		<Unit filename="E:/code3/all/mmx/Xana/main.c">
 			<Option target="Xana"/>
 		</Unit>
-		<Unit filename="E:/code3/mmx/Xana/CMakeLists.txt">
+		<Unit filename="E:/code3/all/mmx/Xana/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

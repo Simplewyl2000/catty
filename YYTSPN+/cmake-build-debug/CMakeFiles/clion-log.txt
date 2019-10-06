@@ -1,4 +1,4 @@
-"D:\Clion\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Mingw/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Mingw/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Mingw/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" E:\code3\YYTSPN+
+"D:\Clion\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Mingw/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Mingw/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Mingw/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" E:\code3\all\mmx\YYTSPN+
 -- The C compiler identification is GNU 6.3.0
 -- Check for working C compiler: D:/Mingw/bin/gcc.exe
 -- Check for working C compiler: D:/Mingw/bin/gcc.exe -- works
@@ -14,4 +14,4 @@ CMake Warning:
     CMAKE_CXX_COMPILER
 
 
--- Build files have been written to: E:/code3/YYTSPN+/cmake-build-debug
+-- Build files have been written to: E:/code3/all/mmx/YYTSPN+/cmake-build-debug

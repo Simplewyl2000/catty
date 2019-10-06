@@ -376,7 +376,7 @@ void linearAna(){
         Spn_Encryption(y);//y为加密后的数组
         
         for(j=0;j<256;j++)
-        { num2intstr(j,L);
+        {   num2intstr(j,L);
             int_strncpy(L1,L,4);
             int_strncpy(L2,L+4,4);
             Xor4(v2,L1,y+4);
@@ -481,8 +481,6 @@ int main()
             break;
         case 2:
             break;
-
-
     }
 
     return 0;

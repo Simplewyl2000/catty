@@ -369,7 +369,7 @@ void Xana(){
     {
         int i,j;
         double start,finish;
-        int key[32]={0,0,1,1,1,0,1,0,1,0,0,1,0,1,0,0,1,1,0,1,0,1,1,0,0,0,1,1,1,1,1,1};//初始密钥数组，32位二进制
+        int key[32]={0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0};//初始密钥数组，32位二进制
         Roundkey_Generation(key);
 
         unsigned short ran;
@@ -504,9 +504,6 @@ void Xana(){
             }
         }
         finish=clock();
-
-
-
     }
 
 }
@@ -526,7 +523,6 @@ int main()
             break;
         case 2:
             break;
-
 
     }
 

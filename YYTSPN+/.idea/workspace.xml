@@ -11,7 +11,99 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23a9c842-be4a-420b-90d2-c1ce0f8eec27" name="Default Changelist" comment="" />
+    <list default="true" id="23a9c842-be4a-420b-90d2-c1ce0f8eec27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spn/.idea/cryptanalysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1 - 副本/.vs/Project1/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1 - 副本/.vs/Project1/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1 - 副本/.vs/Project1/v16/Browse.VC.opendb" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1 - 副本/.vs/Project1/v16/Browse.VC.opendb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/Xana.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/Xana.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/Xana.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/Xana.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/Xana.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xana/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Xana/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YYTSPN_.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/YYTSPN_.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/YYTSPN_.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/YYTSPN_.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/YYTSPN_.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/y.dat" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/y.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/.idea/cryptanalysis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/cryptanalysis.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/cryptanalysis.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/cmake-build-debug/cryptanalysis.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cryptanalysis/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linearAna/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linearAna/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linearAna/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../linearAna/main.c" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +114,15 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RM7I6eBcbisIGyv1DiPFAY0TOC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,5 +142,34 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>265</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>277</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
