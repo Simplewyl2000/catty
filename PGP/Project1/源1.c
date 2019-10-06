@@ -189,7 +189,7 @@ int main()
 		printf("%x", string[i]);
 	}
 	printf("\n");*/
-	string[n] = '\0';
+	//string[n] = '\0';
 	//strcat((char*)string, (const char*)signature);
 	nexus(string, (unsigned char*)signature, sig_len);
 	string[n + sig_len] = '\0';
@@ -386,7 +386,7 @@ int main()
 		 
 		//解压缩
 		     uncompress(expand, &exlen, plain, pplen);
-			 expand[exlen] = '\0';
+			// expand[exlen] = '\0';
 		     printf("解压出的长度为:%ld\n",exlen);
 			 //printf("%s", expand);
 			 printf("解压出的信息为:");

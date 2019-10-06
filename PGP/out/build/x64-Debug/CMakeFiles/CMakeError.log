@@ -30,3 +30,35 @@ RC Pass 1: command "rc /foCMakeFiles\cmTC_7cd1a.dir/manifest.res CMakeFiles\cmTC
 ninja: build stopped: subcommand failed.
 
 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: E:/VS/VC/Tools/MSVC/14.22.27905/bin/HostX64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+2
+ÓÃÓÚ x64 µÄ Microsoft (R) C/C++ ÓÅ»¯±àÒëÆ÷ 19.22.27905 °æ
+°æÈ¨ËùÓĞ(C) Microsoft Corporation¡£±£ÁôËùÓĞÈ¨Àû¡£
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.22.27905.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: ÎŞ·¨´ò¿ªÎÄ¼ş¡°kernel32.lib¡±
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/code3/all/mmx/PGP/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\VS\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_aedd6 
+[1/2] Building C object CMakeFiles\cmTC_aedd6.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_aedd6.exe
+FAILED: cmTC_aedd6.exe 
+cmd.exe /C "cd . && E:\VS\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_aedd6.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- E:\VS\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_aedd6.dir\testCCompiler.c.obj  /out:cmTC_aedd6.exe /implib:cmTC_aedd6.lib /pdb:cmTC_aedd6.pdb /version:0.0  /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /foCMakeFiles\cmTC_aedd6.dir/manifest.res CMakeFiles\cmTC_aedd6.dir/manifest.rc" failed (exit code 0) with the following output:
+ç³»ç»Ÿæ‰¾ä¸åˆ°æŒ‡å®šçš„æ–‡ä»¶ã€‚
+ninja: build stopped: subcommand failed.
+
+
